@@ -2,13 +2,13 @@
 #     source = "../config/gke"
 #  }
 
- module "eq-mysql" {
- source = "../config/mysql"
+ module "eq-instance" {
+ source = "../config/instance"
  }
 
- module "eq-bvt" {
- source = "../config/gce-bvt"
- }
+#  module "eq-bvt" {
+#  source = "../config/gce-bvt"
+#  }
 
 
 # # # module "eq-gcs" {
